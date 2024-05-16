@@ -1,0 +1,13 @@
+<html>
+<body>
+Reports annotations where the use-site target has been defaulted.
+For example, an annotation in a primary constructor parameter which may be applied to parameters or properties,
+so there is a potential ambiguity about the actual use-site target.
+
+<pre><code>
+data class Thing(
+  @NotNull val name: String
+)
+</code></pre>
+</body>
+</html>
