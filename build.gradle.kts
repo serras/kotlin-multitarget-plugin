@@ -1,7 +1,7 @@
 plugins {
     id("java")
     id("org.jetbrains.kotlin.jvm") version "1.9.24"
-    id("org.jetbrains.intellij.platform") version "2.0.0-beta2"
+    id("org.jetbrains.intellij.platform") version "2.0.0-beta4"
 }
 
 group = "com.serranofp"

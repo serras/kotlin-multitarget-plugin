@@ -27,8 +27,19 @@
                 language="kotlin"
                 enabledByDefault="true"
                 level="WARNING"
-                displayName="Use site target defaulting for annotations"
-                groupName="Annotations"
+                bundle="messages.MultiTargetBundle"
+                groupPath="Kotlin"
+                groupKey="group.name"
+                key="inspection.name"
                 implementationClass="com.serranofp.kotlinmultitarget.MultiTargetAnnotationInspection"/>
+        <codeInsight.declarativeInlayProvider
+                language="kotlin"
+                isEnabledByDefault="true"
+                providerId="kotlin.multi.target"
+                bundle="messages.MultiTargetBundle"
+                group="ANNOTATIONS_GROUP"
+                descriptionKey="hint.name"
+                nameKey="hint.name"
+                implementationClass="com.serranofp.kotlinmultitarget.MultiTargetAnnotationsInlayHint"/>
     </extensions>
 </idea-plugin>
